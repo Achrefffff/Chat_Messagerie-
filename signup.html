@@ -8,14 +8,19 @@
     <title>Live Chat</title>
 </head>
 <body>
-    <h1>Live Chat</h1>
+    <h1>Chat</h1>
+    
     <div class="container">
         <form id="formulaire" action="">
+            <h2>Enregistrez Vous</h2>
            <input type="text" name="username" placeholder="Username"> 
            <input type="email" name="email" placeholder="Email"> 
            <input type="password" name="password" placeholder="Password"> 
            <input type="password" name="password2" placeholder="Confirm Password"> 
-           <input type="button" value="Sign up" id="signup_button"> 
+           <input type="submit" value="S'inscire" id="signup_button"> 
+           <br>
+           <a href="login.html" class="linky">Vous avez un compte ? Se Connecter ici </a> <br>
+           <div id="erreur"></div>
         </form>
     </div>
     <script src="js/signupScript.js"></script>
